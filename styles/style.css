@@ -42,6 +42,7 @@ nav ul li a{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: contain;
 }
 .banner{
     display: flex;
@@ -254,9 +255,9 @@ footer{
 
 .parent-footer{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;
     align-items: center;
-    justify-items: center;
+    justify-items: center; */
     gap: 50px;
     margin: 50px 150px 50px 150px;
     padding: 50px;
