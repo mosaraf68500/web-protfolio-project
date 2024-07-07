@@ -1,0 +1,299 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+nav > ul > li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+   
+}
+
+
+/* banner styles */
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 30px 0px 150px;
+    background-size: cover;
+    
+}
+
+.banner-contain{
+    max-width:500;
+}
+
+.profile{
+    width: 500px;
+}
+.banner-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner-greedigs{
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+
+/* shear style */
+
+.text-primay{
+    color: #FD6E0A;
+
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+/* main section style */
+
+#main-section{
+    width: 800px;
+    height: 350px;
+    margin: 100px auto;
+    background-color: #FFF8F3;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.about{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-discription{
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.parent-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.h2{
+    text-align: center;
+    font-size: 20px;
+    font-size:bold;
+}
+
+/* main section-2 style */
+
+/* #main-section-2{
+  
+    margin: 100px auto;
+    
+}
+
+.parent-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.main-discription{
+    padding: 400px;
+}
+
+.parent-skills >.javascript .react .node .mongo{
+    width: 170px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border: 3px solid #764444;
+} */
+
+#main-section-2{
+    max-width: 900px;
+    margin: 0px auto;
+    
+}
+
+.parent-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.skill{
+    /* padding: 30px */
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.main-discription{
+    margin-bottom: 50px;
+}
+
+.main-section-2-title{
+    /* text-align: center; */
+    font-size: 20px;
+    font-size:bold;
+    
+}
+
+
+/* main section-3 style */
+
+.main-section-3{
+
+    max-width: 900px;
+    margin: 0px auto;
+}
+.main-title-section{
+    display: flex;
+}
+.main-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title-section{
+    display:flex;
+    gap: 20px;
+}
+
+.main-title-section{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.main-title-section-2{
+    font-size:20px ;
+    font-weight: bold;
+
+}
+
+.main-title-section-3{
+    font-size: 18px;
+    font-weight: semibold;
+    color: rgba(117, 117, 117, 1);
+}
+
+.section-3-discription{
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+}
+.btn{
+    text-align:center ;
+    margin: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+   
+}
+
+/* footer style */
+
+
+footer{
+    background-color: #FFF8F3;
+
+}
+
+.parent-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+}
+
+.footer-title{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.footer-discription{
+    font-size: 14px;
+
+    color: rgba(71, 71, 71, 1);
+}
+.footer-img{
+    display: flex;
+    gap: 20px;
+}
+
+input[type="text"],input[type="email"],textarea{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+
+    padding: 20px;
+}
+
+.footer-half{
+    width: 50%;
+    
+}
+
+.footer-btn{
+    margin-bottom: 40px;
+}
